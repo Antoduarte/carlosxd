@@ -1,0 +1,105 @@
+.table {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.bt {
+    width: 65px;
+    height: 65px;
+  bottom: 40px;
+  right: 40px;
+  position: fixed;
+}
+
+.bt,
+.bt2 {
+
+  border-radius: 50%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background: rgb(64, 202, 124);
+  padding-bottom: 5px;
+  color: white;
+  font-size: 2rem;
+  border: none;
+  transition: 0.7s ease;
+}
+
+.bt:hover {
+  transform: translateY(-7px);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background: white;
+  color: rgb(64, 202, 124);
+}
+
+.buscar {
+  position: fixed;
+  top: 80px;
+  right: 50px;
+  box-shadow: rgba(149, 157, 165, 0.11) 0px 4px 4px;
+}
+
+.bt2 {
+  position: fixed;
+  top: 70px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+}
+
+.product-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader {
+  position: relative;
+  top: 50px;
+}
+
+.loader .fas {
+  font-size: 3.5rem !important;
+}
+
+.banner {
+  max-width: 80%;
+  height: 320px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.banner .text {
+  width: 48%;
+  padding: 1rem;
+}
+
+.banner .imgBox {
+  width: 48%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.banner .imgBox img {
+  width: 100px;
+  height:auto;
+}
+
+.fade-in {
+  animation: fadeIn ease 1.3s;
+  -webkit-animation: fadeIn ease 1.3s;
+  -moz-animation: fadeIn ease 1.3s;
+  -o-animation: fadeIn ease 1.3s;
+  -ms-animation: fadeIn ease 1.3s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100&display=swap');
+
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.fas{
+    margin: 0 6px;
+    cursor: pointer;
+    font-size: 1.2rem;
+} 
+
+
+    
+.bs-datepicker-container {
+    padding: 15px;
+    background: #fff;
+  }
+  
+  div.bs-datepicker-head{
+    background-color: #5cb85c;
+    min-width: 270px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 3px 3px 0 0;
+    text-align: justify;
+    display: flex;
+    justify-content: center
+  }
+  .bs-datepicker-body {
+    padding: 10px;
+    border-radius: 0 0 3px 3px;
+    min-height: 232px;
+    min-width: 278px;
+    border: 1px solid #e9edf0;
+  }
+  .bs-datepicker-body .days.weeks {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .bs-datepicker-body table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+  }
+
+  .bs-datepicker-head button.current {
+    border-radius: 15px;
+    max-width: 155px;
+    padding: 0 13px;
+}
+
+  .bs-datepicker-head button {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0;
+    height: 30px;
+    line-height: 30px;
+    border: 0;
+    background: transparent;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+.bs-datepicker-body table td.is-other-month span, .bs-datepicker-body table td span.is-other-month {
+    color: rgba(0,0,0,.25);
+}
+.theme-green .bs-datepicker-body table td.week span {
+    color: #5cb85c;
+}
+
+.bs-datepicker-head button.next span, 
+.bs-datepicker-head button.previous span {
+    font-size: 28px;
+    line-height: 1;
+    display: inline-block;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.bs-datepicker-body table th {
+    font-size: 13px;
+    color: #9aaec1;
+    font-weight: 400;
+    text-align: center;
+}
+
+.bs-datepicker-body table td:not(.disabled):not(.week) span:not(.disabled):not(.is-other-month) {
+    cursor: pointer;
+}
+
+.theme-green .bs-datepicker-body table td span.selected {
+    background-color: #5cb85c!important;
+    
+}
+body table td span.selected {
+    color: #fff;
+}
+.bs-datepicker-body table.days span {
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+}
+.bs-datepicker-body table td span {
+    display: block;
+    margin: 0 auto;
+    font-size: 13px;
+    text-align: center;
+    border-radius: 50%;
+    
+}
